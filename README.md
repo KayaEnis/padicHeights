@@ -25,4 +25,6 @@ Francesca Bianchi, Enis Kaya and J. Steffen Müller
 **Files**
 
 * The quadratic Chabauty example 5.5 can be computed by running qchabauty_example.sage from the subfolder QCExample in Sage. The final part of the computation requires magma.
+* The local heights away from p in Examples 5.3 and 5.4 can be computed
+  using local Neron functions by running example_5_3.sage and example_5_4.sage in the folder NeronExamples.
 
