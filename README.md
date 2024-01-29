@@ -2,9 +2,9 @@ This is SageMath (and some magma) code for the examples in "Algorithms for p-adi
 
 **Dependencies**
 
-* Jennifer Balakrishnan's code for computing Coleman integrals of differentials of the third kind is required. Get it from https://github.com/jbalakrishnan/AWS and follow the instructions there.
-* The third-named author's and Stevan Gajović's code for computing Coleman integrals of differentials of the third kind is required. Get it from https://github.com/StevanGajovic/heights_above_p and follow the instructions there.
-* The first-named author's code for computing p-adic Néron functions is required. Get it from https://github.com/bianchifrancesca/padic_heights_g2 and move the folder p-adic_heights_g2 to the present folder. Also change the loading paths as follows:
+* Jennifer Balakrishnan's code for computing Coleman integrals of differentials of the third kind is required for Ex5.4.py. Get it from https://github.com/jbalakrishnan/AWS and follow the instructions there.
+* The third-named author's and Stevan Gajović's code for computing Coleman integrals of differentials of the third kind is required for https://github.com/KayaEnis/padicHeights/blob/main/Ex5.4(fast).py. Get it from https://github.com/StevanGajovic/heights_above_p and follow the instructions there.
+* The first-named author's code for computing p-adic Néron functions is required for QCExample/qchabauty_example.sage, NeronExamples/example_5_3.sage and NeronExamples/example_5_4.sage . Get it from https://github.com/bianchifrancesca/padic_heights_g2 and move the folder p-adic_heights_g2 to the present folder. Also change the loading paths as follows:
 
 In p-adic_heights_g2/heights_and_abelian_integrals.sage change
     
