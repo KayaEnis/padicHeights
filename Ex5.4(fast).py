@@ -1,6 +1,6 @@
 ##########################################################################################
 
-# Same as Ex5.4.py, except that we use the code of the third-named author and Gajović instead 
+# Same as Ex5.4.py, except that we use the code Gajović and the third-named author instead 
 # of Balakrishnan's code for computing Coleman integrals of differentials of the third kind.
 
 # SETUP
