@@ -339,6 +339,7 @@ def Int2(pt,z1,z2): # integral of omega = (y+b)/(x-a)*dx/2y from z1 to z2, where
 # D) LOCAL HEIGHT PAIRING AT P
 
 # Blakestad's constants
+# computed using canonical_constants in canonical_subspace.py
 alpha_Bl = 1 + 2*5 + 2*5^2 + 2*5^3 + 2*5^4 + 5^5 + 4*5^6 + O(5^7)
 beta_Bl  = 2 + 4*5^2 + 3*5^3 + 5^4 + 2*5^5 + O(5^7)
 gamma_Bl = 2 + 2*5 + 2*5^2 + 2*5^3 + 2*5^4 + 3*5^6 + O(5^7)
