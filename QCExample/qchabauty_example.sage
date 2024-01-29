@@ -1,6 +1,7 @@
 # This is code for Example 5.5. We use quadratic Chabauty as in §4.1.1 to
 # compute the integral points on y^2 = x^5+x^3-2x+1
 # Tested on Sage 9.3 and Magma V2.27-5
+# To run the computation, load this file into SageMath.
 
 from sage.rings.padics.precision_error import PrecisionError
 load("../QCExample/kummer_formulas.sage")
