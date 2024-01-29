@@ -8,7 +8,7 @@ This is SageMath (and some magma) code for the examples in "Algorithms for p-adi
 
 In p-adic_heights_g2/heights_and_abelian_integrals.sage change
     
-      ```load("./formal_group_expansions.sage")``` 
+```load("./formal_group_expansions.sage")``` 
 
 to
 
