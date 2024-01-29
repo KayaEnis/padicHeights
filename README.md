@@ -1,4 +1,4 @@
-This is SageMath (and some magma) code for the examples in "Algorithms for p-adic Heights on Hyperelliptic Curves of Arbitrary Reduction".
+This is SageMath (and some Magma) code for the examples in "Algorithms for p-adic Heights on Hyperelliptic Curves of Arbitrary Reduction".
 
 **Dependencies**
 
