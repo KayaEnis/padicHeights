@@ -396,11 +396,11 @@ T, wT = pt11, pt12
 # D1 = 4D2 & D4 = 6D3 ===> 6h(D1,D3) = h(D1,D4) = h(D4,D1) = 4h(D4,D2)
 # 1) D1 = (Q)-(wQ), D3 = (S)-(wP)
 local_ht_at_p = local_height_at_p(Q,wQ,S,wP)
-local_hts_away_from_p = 0
+local_hts_away_from_p = 0 # computed using https://github.com/emresertoz/neron-tate
 global_height_1 = local_ht_at_p + local_hts_away_from_p
 # 2) D4 = (T)-(wT), D2 = (R)-(P)
 local_ht_at_p = local_height_at_p(T,wT,R,P)
-local_hts_away_from_p = -2*Log(2) + Log(3)
+local_hts_away_from_p = -2*Log(2) + Log(3) # computed using https://github.com/emresertoz/neron-tate
 global_height_2 = local_ht_at_p + local_hts_away_from_p
 # check if zero:
 6*global_height_1 - 4*global_height_2
