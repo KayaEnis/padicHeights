@@ -105,7 +105,7 @@ t = time.time()
 # n = 7
 bx = x^5 - 4*x^4 - 48*x^3 + 64*x^2 + 512*x + 256 
 p = 7
-n = 6
+n = 4 # Use n=6 for the example, but this takes very long.
 L, _ = canonical_constants(bx, p, n)
 t = time.time() - t
 
