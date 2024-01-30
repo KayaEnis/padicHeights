@@ -5,6 +5,7 @@
 
 # SETUP
 
+load("../heights_above_p/phts_hyp.sage")
 _.<x> = PolynomialRing(QQ);
 bx = x^5 - 4*x^4 - 48*x^3 + 64*x^2 + 512*x + 256 # monic version of [LMFDB,125237.a.125237.1]
 b5, b4, b3, b2, b1, b0 = bx.list() # bx = x^5 + b1*x^4 + b2*x^3 + b3*x^2 + b4*x + b5
